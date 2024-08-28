@@ -17,4 +17,3 @@ pc = Pinecone(api_key=PINECONE_API_KEY)
 index = pc.Index("myindex")
 
 vector_store = PineconeVectorStore(index=index, embedding=embeddings)
-
