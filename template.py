@@ -35,4 +35,4 @@ for filepath in list_of_files:
     else:
         logging.info(f"{filename} is already created")
 
-# we can also chceck using the size (os.path.getsize(filepath) == 0)
+# we can also chceck using the size (os.path.getsize(filepath) == 0) read the doc for more info
