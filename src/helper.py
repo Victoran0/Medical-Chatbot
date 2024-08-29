@@ -27,6 +27,6 @@ model_path = "C:\\Users\\User\\.cache\\huggingface\\hub\\models--second-state--A
 def embeddings():
     embeddings_model = LlamaCppEmbeddings(
         model_path=model_path,
-        n_gpu_layers=10)
+        n_gpu_layers=9)
 
     return embeddings_model
